@@ -16,22 +16,25 @@
 		3930D4061719F15100A01B81 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930D4051719F15100A01B81 /* Default.png */; };
 		3930D4081719F15100A01B81 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930D4071719F15100A01B81 /* Default@2x.png */; };
 		3930D40A1719F15100A01B81 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930D4091719F15100A01B81 /* Default-568h@2x.png */; };
+		3930D4121719F17800A01B81 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3930D4111719F17800A01B81 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3930D3EF1719F15100A01B81 /* Correct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Correct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3930D3EF1719F15100A01B81 /* TableHwk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableHwk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3930D3F31719F15100A01B81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3930D3F51719F15100A01B81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3930D3F71719F15100A01B81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3930D3FB1719F15100A01B81 /* Correct-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Correct-Info.plist"; sourceTree = "<group>"; };
+		3930D3FB1719F15100A01B81 /* TableHwk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableHwk-Info.plist"; sourceTree = "<group>"; };
 		3930D3FD1719F15100A01B81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3930D3FF1719F15100A01B81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3930D4011719F15100A01B81 /* Correct-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Correct-Prefix.pch"; sourceTree = "<group>"; };
+		3930D4011719F15100A01B81 /* TableHwk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableHwk-Prefix.pch"; sourceTree = "<group>"; };
 		3930D4021719F15100A01B81 /* CorrectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CorrectAppDelegate.h; sourceTree = "<group>"; };
 		3930D4031719F15100A01B81 /* CorrectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorrectAppDelegate.m; sourceTree = "<group>"; };
 		3930D4051719F15100A01B81 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3930D4071719F15100A01B81 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3930D4091719F15100A01B81 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3930D4101719F17800A01B81 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3930D4111719F17800A01B81 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +63,7 @@
 		3930D3F01719F15100A01B81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3930D3EF1719F15100A01B81 /* Correct.app */,
+				3930D3EF1719F15100A01B81 /* TableHwk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +83,8 @@
 			children = (
 				3930D4021719F15100A01B81 /* CorrectAppDelegate.h */,
 				3930D4031719F15100A01B81 /* CorrectAppDelegate.m */,
+				3930D4101719F17800A01B81 /* TableViewController.h */,
+				3930D4111719F17800A01B81 /* TableViewController.m */,
 				3930D3FA1719F15100A01B81 /* Supporting Files */,
 			);
 			path = Correct;
@@ -88,10 +93,10 @@
 		3930D3FA1719F15100A01B81 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3930D3FB1719F15100A01B81 /* Correct-Info.plist */,
+				3930D3FB1719F15100A01B81 /* TableHwk-Info.plist */,
 				3930D3FC1719F15100A01B81 /* InfoPlist.strings */,
 				3930D3FF1719F15100A01B81 /* main.m */,
-				3930D4011719F15100A01B81 /* Correct-Prefix.pch */,
+				3930D4011719F15100A01B81 /* TableHwk-Prefix.pch */,
 				3930D4051719F15100A01B81 /* Default.png */,
 				3930D4071719F15100A01B81 /* Default@2x.png */,
 				3930D4091719F15100A01B81 /* Default-568h@2x.png */,
@@ -102,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3930D3EE1719F15100A01B81 /* Correct */ = {
+		3930D3EE1719F15100A01B81 /* TableHwk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3930D40D1719F15100A01B81 /* Build configuration list for PBXNativeTarget "Correct" */;
+			buildConfigurationList = 3930D40D1719F15100A01B81 /* Build configuration list for PBXNativeTarget "TableHwk" */;
 			buildPhases = (
 				3930D3EB1719F15100A01B81 /* Sources */,
 				3930D3EC1719F15100A01B81 /* Frameworks */,
@@ -114,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = Correct;
+			name = TableHwk;
 			productName = Correct;
-			productReference = 3930D3EF1719F15100A01B81 /* Correct.app */;
+			productReference = 3930D3EF1719F15100A01B81 /* TableHwk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +134,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = nyuguest;
 			};
-			buildConfigurationList = 3930D3E91719F15100A01B81 /* Build configuration list for PBXProject "Correct" */;
+			buildConfigurationList = 3930D3E91719F15100A01B81 /* Build configuration list for PBXProject "TableHwk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3930D3EE1719F15100A01B81 /* Correct */,
+				3930D3EE1719F15100A01B81 /* TableHwk */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +172,7 @@
 			files = (
 				3930D4001719F15100A01B81 /* main.m in Sources */,
 				3930D4041719F15100A01B81 /* CorrectAppDelegate.m in Sources */,
+				3930D4121719F17800A01B81 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +244,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Correct/Correct-Prefix.pch";
-				INFOPLIST_FILE = "Correct/Correct-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Correct/TableHwk-Prefix.pch";
+				INFOPLIST_FILE = "Correct/TableHwk-Info.plist";
+				PRODUCT_NAME = TableHwk;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -249,9 +255,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Correct/Correct-Prefix.pch";
-				INFOPLIST_FILE = "Correct/Correct-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Correct/TableHwk-Prefix.pch";
+				INFOPLIST_FILE = "Correct/TableHwk-Info.plist";
+				PRODUCT_NAME = TableHwk;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -259,7 +265,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3930D3E91719F15100A01B81 /* Build configuration list for PBXProject "Correct" */ = {
+		3930D3E91719F15100A01B81 /* Build configuration list for PBXProject "TableHwk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3930D40B1719F15100A01B81 /* Debug */,
@@ -268,13 +274,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3930D40D1719F15100A01B81 /* Build configuration list for PBXNativeTarget "Correct" */ = {
+		3930D40D1719F15100A01B81 /* Build configuration list for PBXNativeTarget "TableHwk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3930D40E1719F15100A01B81 /* Debug */,
 				3930D40F1719F15100A01B81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
